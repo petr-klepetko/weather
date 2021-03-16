@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+    padding: 0;
+    width: 100vw;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.paragraphContainer {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+td {
+    min-width: 150px;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+.textAreaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cityTextArea {
+    resize: none;
+    height: 30px;
+    font-size: 19px;
+    margin: 5px;
+}
+
+.confirmButton {
+    margin: 5px;
+    width: 50px;
+}
+
+button {
+    cursor: pointer;
+    height: 30px;
+}
+
+#currentTime {
+    font-weight: 200;
+}

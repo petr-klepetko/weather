@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Weather now</h1>
+        <p class="subheader">by Petr Klepetko</p>
+    </header>
+    <main>
+        <div class="paragraphContainer">
+            <h2>Location:</h2>
+            <table>
+                <tr>
+                    <td>Country:</td>
+                    <td id="country"></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td id="city"></td>
+                </tr>
+                <tr>
+                    <td>Latitude:</td>
+                    <td id="latitude"></td>
+                </tr>
+                <tr>
+                    <td>Longitude:</td>
+                    <td id="longitude"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="paragraphContainer">
+            <h2>Weather:</h2>
+            <table>
+                <tr>
+                    <td>Clouds (%):</td>
+                    <td id="clouds"></td>
+                </tr>
+                <tr>
+                    <td>Temperature:</td>
+                    <td id="temp"></td>
+                </tr>
+                <tr>
+                    <td>Feels like:</td>
+                    <td id="feels_like"></td>
+                </tr>
+                <tr>
+                    <td>Temperature min:</td>
+                    <td id="temp_min"></td>
+                </tr>
+                <tr>
+                    <td>Temperature max:</td>
+                    <td id="temp_max"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="paragraphContainer">
+            <h2>Sun:</h2>
+            <table>
+                <tr>
+                    <td>Sunrise: </td>
+                    <td id="sunrise"></td>
+                </tr>
+                <tr>
+                    <td>Sunset: </td>
+                    <td id="sunset"></td>
+                </tr>
+                <tr>
+                    <td>Current: </td>
+                    <td id="currentSun"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="paragraphContainer">
+            <table>
+                <tr>
+                    <td><h2>Time: </h2></td>
+                    <td><h2 id="currentTime"></h2></td>
+                </tr>
+            </table>
+        </div>
+        <div class="paragraphContainer">
+            <button id="goBackButton" class="goBackButton">Go back</button>
+        </div>
+       
+    </main>
+
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
